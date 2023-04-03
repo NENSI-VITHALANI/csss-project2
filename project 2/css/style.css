@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    max-width:1140px ;
+    margin:auto;
+}
+body{
+    background-color: black;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(191, 171, 147);
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(57, 16, 24);
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    text-indent: 2;
+    margin-top: 5px;
+}
+#jarv {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(234, 132, 153);
+    text-decoration: none;
+    font-family: 'Patrick Hand';
+    margin: 10px 15px;
+}
+h2 {
+
+    font-family: 'Syne Mono';
+    text-align: center;
+    font-size: 40px;
+    color: rgb(191, 171, 147);
+}
+h3{
+    margin: 0 15px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(57, 16, 24);
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    text-indent: 2;
+}
+
+.sub-box{
+    border:solid;
+   
+    width:350px ;
+    display: inline-block;
+    margin: 100px 10px;
+    border-color:white;
+    padding: 100px;
+}
+
+.box{
+    width:100%;
+    height:450px ;
+    background-color :darkcyan;
+    display: inline-block;
+    margin: 8px ;
+}
+
+
+.box2{
+    width:100%;
+    height:400px ;
+    background:linear-gradient(0deg, rgb(13, 79, 80) 11%, rgb(21, 35, 60) 77%);
+    display: inline-block;
+    margin:8px ;
+    
+}
+
+.box3{
+    width:100%;
+    height:400px ;
+    background-image: url('../img/img1\ \(2\).jpg');
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    margin:8px ;
+}
+    .box4{
+        width:100%;
+        height:400px ;
+        background-image: url('../img/img2.jpg');
+        background-size: contain;
+        display: inline-block;
+        margin:8px ;
+    
+    }
+    .box5{
+        width:100%;
+        height:400px ;
+        background-image: url('../img/img4.jpg');
+        background-size:cover;
+        display: inline-block;
+        margin:8px ;
+    }
+    .box6{
+        width:100%;
+        height:400px ;
+        background-image: url('../img/img3\ \(1\).jpg');
+       background-attachment: fixed;
+        margin:8px;
+        display: inline-block;
+        background-position: center;
+    }
+    .box7{
+        width:100%;
+        height:400px ;
+        background-image: url('../img/img5.jpg');
+    background-position: center;
+        margin:8px;
+        display: inline-block;
+        background-size:cover;
+    }
+    .box8{
+        width:100%;
+        height:400px ;
+        background-image: url('../img/img6.jpg');
+        background-color:rgba(133, 145, 169, 0.944) ;
+        background-blend-mode:lighten;
+    background-position: center;
+        margin:8px;
+        display: inline-block;
+        background-size:cover;
+    }
+    .sub-box1{
+        border:solid white;
+       box-sizing: border-box;
+        width:350px ;
+        display: inline-block;
+        margin: 100px 10px;
+        border-color:white;
+        padding: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: brown;
+    }
+    
+    .sub-box2{
+        border:double black;
+       box-sizing: border-box;
+        width:350px ;
+        display: inline-block;
+        margin: 100px 10px;
+       
+        padding: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: brown;
+    }
+    .sub-box3{
+        border:dashed white;
+       box-sizing: border-box;
+        width:350px ;
+        display: inline-block;
+        margin: 100px 10px;
+        border-color:white;
+        padding: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: brown;
+    }
+    .sub-box4{
+        border:groove;
+       box-sizing: border-box;
+        width:350px ;
+        display: inline-block;
+        margin: 100px 10px;
+        border-color: bisque;
+        padding: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:brown;
+    }
+    .sub-box5{
+        border:dashed black;
+       box-sizing: border-box;
+        width:350px ;
+        display: inline-block;
+        margin: 100px 10px;
+      
+        padding: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:brown;
+    }
+    .sub-box6{
+        border:ridge;
+       box-sizing: border-box;
+        width:350px ;
+        display: inline-block;
+        margin: 100px 10px;
+        border-color:maroon;
+        padding: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:brown;
+    }
